@@ -1,8 +1,8 @@
-#MLTwitter
+## MLTwitter
 
 Twitter client primarily targeted to Magic Leap on Unity.
 
-###Sample Code
+### Sample Code
 
     // Read video file from storage
     byte[] video = File.ReadAllBytes(videoFilePath);
@@ -17,7 +17,7 @@ Twitter client primarily targeted to Magic Leap on Unity.
     await _client.UpdateStatus("Uploading a video capture", videoMediaId);
 
 
-###Features 
+### Features 
 
 - [3-legged OAuth](https://developer.twitter.com/en/docs/basics/authentication/overview/3-legged-oauth) (demo included)
 - [PIN-based OAuth](https://developer.twitter.com/en/docs/basics/authentication/overview/pin-based-oauth)
@@ -26,7 +26,7 @@ Twitter client primarily targeted to Magic Leap on Unity.
 - [Upload media](https://developer.twitter.com/en/docs/media/upload-media/overview) with image/video (demo included)
 - General GET/POST methods with [OAuth header](https://developer.twitter.com/en/docs/basics/authentication/overview/using-oauth)
 
-###Demo
+### Demo
 
 [Demo recorded footage](https://twitter.com/ryoichirooka/status/1120167709470105601)
 
@@ -43,17 +43,17 @@ To run the demo on your own:
 - Pass the repository to `DemoController` in `Demo/DemoScene.scene`
 - Run that scene on Magic Leap
 
-###Requirements
+### Requirements
 
 - Unity version 2019.1 and later
 - C# 7 language features
 - [UniRx](https://github.com/neuecc/UniRx)
 
-###Disclaimer
+### Disclaimer
 
 - Primarily for myself and developing inconsistently (issues & PRs are appreciated)
 - MIT license
 
-###Motivation
+### Motivation
 
 - I couldn't find any loyalty-free cross-platform Twitter clients for Unity (except broken ones) so decided to make my own. The core is completely managed in .NET Standard 2.0 and survives IL2CPP so it should be portable to the majority of platforms including upcoming smartglasses; as PoC it works in Lumin runtime.
