@@ -47,6 +47,7 @@ Unity will automatically fill in areas marked as Placeholder from the Player Set
     <uses-privilege ml:name="ControllerPose" />
     <component ml:binary_name="bin/Player.elf" ml:name=".fullscreen" ml:type="Fullscreen" ml:visible_name="Placeholder">
       <icon ml:model_folder="Icon/Model" ml:portal_folder="Icon/Portal" />
+      <schema ml:name="mltwitter://" />
     </component>
   </application>
 </manifest>
